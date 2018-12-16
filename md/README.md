@@ -20,7 +20,7 @@
 *     └── hzpsf.ini         
 
 ## 4.编译
-> * 可选操作
+> * 可选操作(生成configure)
 > * ```aclocal```
 > * ```automake -a```
 > * ```autoconf```
@@ -35,23 +35,24 @@
 * ```sudo make uninstall```
 
 ## 7.使用:
-* Usage:        hzpsf   OBJECT={-i inputcfgfile | [-s] | -h}    [OPTIONS]
-	* where OBJECT  := { -i (inputcfgfile(Intput configuration file)
-	    * -s (Switch character set)
-	    * -h (Get help information) }
-	* OPTIONS := { -e (englishfont(English font)
-	    * -c (chinesefont(Chinese font library)
-	    * -o (outputcfgfile(Output configuration file)
-	    * -p (outputpsffile(Output psf font file)
-	    * -a (Allow space spacing Chinese characters) }
+*Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
+	*where	OBJECT	:={-i <in_isolinux.cfg> 'Intput configuration file'
+			*-t 		     'Turn off transcoding'
+			*-h		     'Get help information'}
+	*OPTIONS	:={-e <GREEK.F16>    'English font'
+			*-c <hzk16s>	     'Chinese font library'
+			*-o <out_isolinx.cfg>'Output configuration file'
+			*-p <myfont.psf>     'Output psf font file'
+			*-s		     'Skip file coverage check'
+			*-a		     'Allow space spacing Chinese characters'}
 * **Use the /etc/hzpsfini/hzpsf.ini file to set up the program!**
 * **The program font file is installed at: $prefix/shar/fonts/psfzk/!**
 * Example:
-* ```hzpsf -i isolinux_utf.cfg -s```
-* ```hzpsf -i isolinux_gb.cfg -e GREEK.F16 -c hzk16s -o isolinux.cfg -p myfont.psf```
-* -i:输入处理文件;      -s:启用转码功能;        -h:获取帮助信息;
+* ```hzpsf -i isolinux_utf.cfg ```
+* ```hzpsf -t -i isolinux_gb.cfg -e GREEK.F16 -c hzk16s -o isolinux.cfg -p myfont.psf```
+* -i:输入处理文件;      -t:关闭转码功能;        -h:获取帮助信息;
 * -e:F16字库文件;       -c:中文字库文件;        -o:输出经过处理后的文件;
-* -p:生成的psf字体文件; -a:允许空格间隔汉字
+* -p:生成的psf字体文件;  -s:跳过检查文件覆盖;	  -a:允许空格间隔汉字
 
 ## 8.生成文件
 * isolinux.cfg:生成的配置文件,结合myfont.psf字体文件一起使用

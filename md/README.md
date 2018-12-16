@@ -35,16 +35,16 @@
 * ```sudo make uninstall```
 
 ## 7.使用:
-*Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
-	*where	OBJECT	:={-i <in_isolinux.cfg> 'Intput configuration file'
-			*-t 		     'Turn off transcoding'
-			*-h		     'Get help information'}
-	*OPTIONS	:={-e <GREEK.F16>    'English font'
-			*-c <hzk16s>	     'Chinese font library'
-			*-o <out_isolinx.cfg>'Output configuration file'
-			*-p <myfont.psf>     'Output psf font file'
-			*-s		     'Skip file coverage check'
-			*-a		     'Allow space spacing Chinese characters'}
+* Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
+	* where	OBJECT	:={-i <in_isolinux.cfg> 'Intput configuration file'
+			* -t 		     'Turn off transcoding'
+			* -h		     'Get help information'}
+	* OPTIONS	:={-e <GREEK.F16>    'English font'
+			* -c <hzk16s>	     'Chinese font library'
+			* -o <out_isolinx.cfg>'Output configuration file'
+			* -p <myfont.psf>     'Output psf font file'
+			* -s		     'Skip file coverage check'
+			* -a		     'Allow space spacing Chinese characters'}
 * **Use the /etc/hzpsfini/hzpsf.ini file to set up the program!**
 * **The program font file is installed at: $prefix/shar/fonts/psfzk/!**
 * Example:

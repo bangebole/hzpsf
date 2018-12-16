@@ -38,15 +38,15 @@
 * Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
 	* where	OBJECT	:={
 		* -i <in_isolinux.cfg> > ```Intput configuration file```
-		* -t > ```Turn off transcoding```
+		* -t ```Turn off transcoding```
 		* -h ```Get help information```}
 	* OPTIONS	:={
-		* -e <GREEK.F16> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```English font```
+		* -e <GREEK.F16> ```English font```
 		* -c <hzk16s.> ```Chinese font library```
 		* -o <out_isolinx.cfg> ```Output configuration file```
-		* -p <myfont.psf> &emsp;&emsp;&emsp;&emsp;```Output psf font file```
-		* -s &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Skip file coverage check```
-		* -a &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Allow space spacing Chinese characters```}
+		* -p <myfont.psf> ```Output psf font file```
+		* -s ```Skip file coverage check```
+		* -a ```Allow space spacing Chinese characters```}
 * **Use the /etc/hzpsfini/hzpsf.ini file to set up the program!**
 * **The program font file is installed at: $prefix/shar/fonts/psfzk/!**
 * Example:

@@ -37,8 +37,8 @@
 ## 7.使用:
 * Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
 	* where	OBJECT	:={
-		* -i <in_isolinux.cfg>	```Intput configuration file```
-		* -t			```Turn off transcoding```
+		* -i <in_isolinux.cfg>&emsp;```Intput configuration file```
+		* -t&emsp;&emsp;&emsp;&emsp;```Turn off transcoding```
 		* -h		     	```Get help information```}
 	* OPTIONS	:={
 		* -e <GREEK.F16>    	```English font```

@@ -42,7 +42,7 @@
 		* -h &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Get help information```}
 	* OPTIONS	:={
 		* -e <GREEK.F16> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```English font```
-		* -c <hzk16 s > ```Chinese font library```
+		* -c <<HZK16S>> ```Chinese font library```
 		* -o <out_isolinx.cfg> &emsp;&emsp;&emsp;&emsp;```Output configuration file```
 		* -p <myfont.psf> &emsp;&emsp;&emsp;&emsp;```Output psf font file```
 		* -s &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Skip file coverage check```

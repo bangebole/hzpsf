@@ -38,15 +38,15 @@
 * Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
 	* where	OBJECT	:={
 		* -i <in_isolinux.cfg>&emsp;```Intput configuration file```
-		* -t&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Turn off transcoding```
-		* -h		     	```Get help information```}
+		* -t&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Turn off transcoding```
+		* -h&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Get help information```}
 	* OPTIONS	:={
-		* -e <GREEK.F16>    	```English font```
-		* -c <hzk16s>	     	```Chinese font library```
-		* -o <out_isolinx.cfg>	```Output configuration file```
-		* -p <myfont.psf>	```Output psf font file```
-		* -s			```Skip file coverage check```
-		* -a			```Allow space spacing Chinese characters```}
+		* -e <GREEK.F16>&emsp;&emsp;&emsp;```English font```
+		* -c <hzk16s>&emsp;&emsp;&emsp;&emsp;```Chinese font library```
+		* -o <out_isolinx.cfg>&emsp;&emsp;&emsp;&emsp;```Output configuration file```
+		* -p <myfont.psf>&emsp;&emsp;&emsp;&emsp;```Output psf font file```
+		* -s&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Skip file coverage check```
+		* -a&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Allow space spacing Chinese characters```}
 * **Use the /etc/hzpsfini/hzpsf.ini file to set up the program!**
 * **The program font file is installed at: $prefix/shar/fonts/psfzk/!**
 * Example:

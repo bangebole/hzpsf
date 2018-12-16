@@ -37,12 +37,12 @@
 ## 7.使用:
 * Usage:	hzpsf	OBJECT={-i <in_isolinux.cfg> | [-t] | -h}	[OPTIONS]
 	* where	OBJECT	:={
-		* -i <in_isolinux.cfg>&emsp;```Intput configuration file```
+		* -i <in_isolinux.cfg>&emsp;&emsp;```Intput configuration file```
 		* -t&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Turn off transcoding```
 		* -h&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Get help information```}
 	* OPTIONS	:={
-		* -e <GREEK.F16>&emsp;&emsp;&emsp;```English font```
-		* -c <hzk16s>&emsp;&emsp;&emsp;&emsp;```Chinese font library```
+		* -e <GREEK.F16>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```English font```
+		* -c <hzk16s>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Chinese font library```
 		* -o <out_isolinx.cfg>&emsp;&emsp;&emsp;&emsp;```Output configuration file```
 		* -p <myfont.psf>&emsp;&emsp;&emsp;&emsp;```Output psf font file```
 		* -s&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;```Skip file coverage check```
